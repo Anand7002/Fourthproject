@@ -3,7 +3,7 @@
 This is a sample simple webpage for widgets
 
 I attached some pics below
-![Uploading Screenshot (26).png…]()
+![Screenshot (26)](https://user-images.githubusercontent.com/118151828/236388083-3116b1f2-da3b-431b-9b54-1d31a8ef3d8c.png)
 ![Screenshot (27)](https://user-images.githubusercontent.com/118151828/236387958-3fb9689a-801b-4b68-af80-431612ea8fa0.png)
 ![Screenshot (28)](https://user-images.githubusercontent.com/118151828/236387967-187f5ce9-60c5-46a0-ac5c-0ebaae10940a.png)
 ![Screenshot (29)](https://user-images.githubusercontent.com/118151828/236387976-4db5280b-6895-4bcb-bc59-5e5684d31ea2.png)
