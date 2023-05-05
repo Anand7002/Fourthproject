@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget</title>
+    <link rel="stylesheet" href="features.css">
+</head>
+
+<body>
+    
+    <div id="q">
+        <div class="information">
+            <div class="color"></div>
+            <img src="/images/widgets/laptop.jpg"  class="laptop">
+            <div id="circle">
+                <div class="featureone">
+                    <div>
+                        <h1>Display</h1>
+                        <p>18 inch lenth display; Touch screen</p>
+                    </div>
+                </div>
+                <div class="featuretwo">
+                    <div>
+                        <h1>Camera</h1>
+                        <p>18Px HD quality; Tourch available</p>
+                    </div>
+                </div>
+                <div class="featurethree">
+                    <div>
+                        <h1>Battery</h1>
+                        <p>18000PH;<br>50hours active</p>
+                    </div>
+                </div>
+                <div class="featurefour">
+                    <div>
+                        <h1>Processor</h1>
+                        <p>8GB RAM; Fastest network core</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control">
+            <img src="/images/Laptop/up1.png" onclick="btn1()" id="btn1">
+            <h2 style="color: white;">Features</h2>
+            <img src="/images/Laptop/up1.png" onclick="btn2()" id="btn2"><br><br>
+            <a href="Home.html"><button style="height: 30px; width: 150px; mix-blend-mode: multiply; color: black;"><b>Back</b></button></a>
+        </div>
+
+    </div>
+   
+
+    <script>
+        var circle=document.getElementById('circle')
+        var rotatevalue=circle.style.transform
+        rotatevalue=rotatesum
+
+        function btn1(){
+            var btn1=document.getElementById('btn1')
+            rotatesum=rotatevalue+'rotate(-90deg)'
+            circle.style.transform=rotatesum
+            rotatevalue=rotatesum
+        }
+        function btn2(){
+            var btn1=document.getElementById('btn2')
+            rotatesum=rotatevalue+'rotate(90deg)'
+            circle.style.transform=rotatesum
+            rotatevalue=rotatesum
+        }
+    </script>
+</body>
+
+</html>
